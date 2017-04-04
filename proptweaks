@@ -1,0 +1,52 @@
+#
+# build.prop mods start
+#
+
+# CPU & GPU Properties
+ro.sys.cpu.defaultfreq=auto
+ro.sys.gpu.defaultfreq=auto
+cpu.fps=auto
+gpu.fps=auto
+
+# Improve jpeg quality
+ro.media.enc.jpeg.quality=100
+
+# Force home app into memory
+ro.HOME_APP_ADJ=1
+
+# Performance tuning
+video.accelerate.hw=1
+debug.performance.tuning=1
+debug.sf.hw=1
+debug.egl.profiler=1
+debug.egl.hw=1
+debug.composition.type=gpu
+
+# Disable Error reporting and logs
+profiler.force_disable_err_rpt=1
+profiler.force_disable_ulog=1
+
+# Enable Miracast
+persist.debug.wfd.enable=1
+
+# Enable SplitWindow
+persist.splitwindow.support_all=true
+
+# Disable modem ramdumps
+persist.sys.ssr.enable_ramdumps=0
+
+# Disable Sending Usage Data
+ro.config.nocheckin=1
+
+# Qualcomm tweaks
+com.qc.hardware=1
+debug.qc.hardware=true
+debug.qctwa.preservebuf=1
+debug.qctwa.statusbar=1
+
+# Misc
+ro.kernel.android.checkjni=0
+ro.kernel.checkjni=0
+persist.sys.dalvik.hyperthreading=true
+net.tethering.noprovisioning=true
+ro.opa.eligible_device=true
